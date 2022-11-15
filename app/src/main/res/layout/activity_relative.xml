@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative" >
+
+    <Button
+        android:id="@+id/btnO"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:onClick="accionO"
+        android:text="O" />
+
+    <Button
+        android:id="@+id/btnNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnO"
+        android:layout_toRightOf="@id/btnO"
+        android:onClick="accionNO"
+        android:text="NO" />
+
+    <Button
+        android:id="@+id/btnN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnNO"
+        android:layout_toRightOf="@id/btnNO"
+        android:onClick="accionN"
+        android:text="N" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNO"
+        android:layout_toRightOf="@id/btnNO"
+        android:onClick="accionC"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/btnSO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnC"
+        android:layout_toRightOf="@id/btnO"
+        android:onClick="accionSO"
+        android:text="SO" />
+
+    <Button
+        android:id="@+id/btnS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSO"
+        android:layout_toRightOf="@id/btnSO"
+        android:onClick="accionS"
+        android:text="S" />
+
+    <Button
+        android:id="@+id/btnNE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnN"
+        android:layout_toRightOf="@id/btnN"
+        android:onClick="accionNE"
+        android:text="NE" />
+
+    <Button
+        android:id="@+id/btnSE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnC"
+        android:layout_toRightOf="@id/btnC"
+        android:onClick="accionSE"
+        android:text="SE" />
+
+    <Button
+        android:id="@+id/btnE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnC"
+        android:layout_toRightOf="@id/btnNE"
+        android:onClick="accionE"
+        android:text="E" />
+</RelativeLayout>

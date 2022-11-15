@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCalculadora"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:onClick="irACalculadora"
+        android:text="CALCULADORA"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnFrame"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:onClick="irAFrame"
+        android:text="Frame"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:onClick="irALinear"
+        android:text="Linear"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:onClick="irARelative"
+        android:text="Relative"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnTable"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:onClick="irATable"
+        android:text="Table"
+        android:textSize="30dp" />
+</LinearLayout>

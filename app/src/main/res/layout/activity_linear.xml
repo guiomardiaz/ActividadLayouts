@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Linear">
+
+    <RadioButton
+        android:id="@+id/Opcion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="radio1"
+        android:text="Opcion 1" />
+
+    <RadioButton
+        android:id="@+id/Opcion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="radio2"
+        android:text="Opcion 2" />
+
+    <RadioButton
+        android:id="@+id/Opcion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="radio3"
+        android:text="Opcion 3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/estrellaboton"
+            android:layout_width="131dp"
+            android:layout_height="62dp"
+            android:layout_gravity="bottom"
+            android:onClick="accionestrella"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/voiceboton"
+            android:layout_width="120dp"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom|center"
+            android:onClick="accionvoz"
+            app:srcCompat="@android:drawable/ic_btn_speak_now"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/candadoboton"
+            android:layout_width="156dp"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom|end"
+            android:onClick="accionbloquear"
+            app:srcCompat="@android:drawable/ic_lock_idle_lock"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</LinearLayout>
